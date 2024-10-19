@@ -1,10 +1,9 @@
-# ControlEscolar
 ##### Proyecto Final en GO
+# ControlEscolar
 
 <!---
 Primero va el objetivo:
 -->
-
 
 <!---Indice: Objetivo, Evidencia o demostración (link a el proyecto ya en internet), Qué construimos, Tecnologías, Requisitos -->
 ## Contenido
@@ -25,7 +24,7 @@ Primero va el objetivo:
 ### Descripción
 
 <!--  Listan las herramientas: ej (HTML, CSS, JS, Bootstrap, Typewriter JS) -->
-## Herramientas utilizadas
+### Herramientas utilizadas
 
 <!--  Pasos para instalar su proyecto y correrlo o puedes agregar los créditos del proyecto. -->
 
