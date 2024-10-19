@@ -1,4 +1,6 @@
 # ControlEscolar
 Proyecto Final en GO
-###Integrantes
+### Integrantes
 - Fernanda Cruz Hernández
+- María Fernanda Escalona López
+- Mario Alberto Telléz Brisaño
