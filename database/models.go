@@ -14,7 +14,7 @@ type Subject struct {
 
 type Grade struct {
 	GradeID   int     `gorm:"primaryKey"`
-	StudentID int     `json:"student_id"`
-	SubjectID int     `json:"subject_id"`
+	StudentID int     `gorm:"foreignKey"`
+	SubjectID int     `gorm:"foreignKey"`
 	Grade     float64 `json:"grade"`
 }
