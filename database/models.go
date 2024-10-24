@@ -1,20 +1,25 @@
 package database
 
+import "gorm.io/gorm"
+
 type Student struct {
-	Student_id int    `gorm:"primarykey"`
-	Name       string `json:"name"`
-	Group      string `json:"group"`
-	Email      string `json:"email"`
+	gorm.Model
+	Id    int `gorm:"primarykey"`
+	Name  string
+	Group string
+	Email string
 }
 
 type Subject struct {
-	SubjectID uint   `gorm:"primaryKey"`
-	Name      string `json:"name"`
+	gorm.Model
+	Id   int `gorm:"primaryKey"`
+	Name string
 }
 
 type Grade struct {
-	GradeID   int     `gorm:"primaryKey"`
-	StudentID int     `gorm:"foreignKey"`
-	SubjectID int     `gorm:"foreignKey"`
-	Grade     float64 `json:"grade"`
+	gorm.Model
+	GradeID   int `gorm:"primaryKey"`
+	StudentID int `gorm:"foreignKey"`
+	SubjectID int `gorm:"foreignKey"`
+	Grade     float64
 }
